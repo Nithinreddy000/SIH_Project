@@ -1,0 +1,79 @@
+/* Detector.css */
+.app-container {
+    padding: 16px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .file-upload {
+    margin-bottom: 16px;
+  }
+  
+  input[type="file"] {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .results-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 16px;
+  }
+  
+  .result-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    background: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h4 {
+    margin-top: 0;
+  }
+  
+  .text-section, .pii-section, .redacted-section {
+    margin-bottom: 16px;
+  }
+  
+  pre {
+    white-space: pre-wrap; /* Ensure text wraps properly */
+    background: #fff;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    overflow: auto;
+  }
+  
+  h5 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 8px;
+  }
+  
+  /* Style for the bold REDACTED text */
+  .redacted-section b {
+    font-weight: bold;
+    color: red; /* Optional: Change color if needed */
+  }
+  
